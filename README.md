@@ -30,14 +30,14 @@ Este projeto é um assistente simples para facilitar o processo de autenticaçã
 
 ## Como usar
 
-1. Clone o repositório:
+1. Clone o repositório: \\
    git clone https://github.com/seuusuario/assistente-autenticacao-marketplaces.git
 
-2. Instale as dependências
+2. Instale as dependências \\
    npm install
 
-3. Configure as variáveis do ambiente (.env)
-   PARTNER_ID
-   KEY_AUTHENTICATOR_SHOPEE
-   URL_REDIRECT
-   URL_SHOPEE_API
+3. Configure as variáveis do ambiente (.env) \\
+   PARTNER_ID \\
+   KEY_AUTHENTICATOR_SHOPEE \\
+   URL_REDIRECT \\
+   URL_SHOPEE_API \\
