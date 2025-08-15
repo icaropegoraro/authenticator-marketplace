@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
-import { hmacGenerator } from '../util/hmacGenerator.js'
 dotenv.config()
+import { hmacGenerator } from '../util/hmacGenerator.js'
 
 const partnerId = process.env.PARTNER_ID
 const secretKey = process.env.KEY_AUTHENTICATOR_SHOPEE
@@ -27,6 +27,7 @@ export const authShopee = async (url) => {
         shop_id: shopId,
         partner_id: partnerIdNumbered
     }
+    
     try {
         const res = await fetch(`${urlShopeeAPI}/api/v2/auth/token/get?sign=${sign}&partner_id=${partnerId}&timestamp=${currentTimestamp}`, {
             method: 'POST',
