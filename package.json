@@ -5,7 +5,8 @@
   "main": "authenticatorShopee.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-shopee": "node ./shopee/index.js"
+    "dev-shopee": "node ./shopee/index.js",
+    "dev-meli": "node ./mercado-livre/index.js"
   },
   "keywords": [],
   "author": "",
