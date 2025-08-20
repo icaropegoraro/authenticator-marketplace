@@ -18,4 +18,4 @@ export const getURLtoSendtoCustomer = () => {
         console.log(URLtoSendtoCustomer)
 
         return URLtoSendtoCustomer
-    }
+}
